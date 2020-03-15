@@ -41,8 +41,8 @@ public class App {
         char[] chars =  text.toCharArray();
         char lastChecked = 0;
 
-        // Kural 1'den küçük ya da text'in uzunluğundan büyük ise kontrol etme.
-        if(count > 1 || count < chars.length){
+        // Kural 2'den küçük ya da text'in uzunluğundan büyük ise kontrol etme.
+        if(count > 2 || count < chars.length){
             for(int i=0;i< chars.length; i++){
 
                 //Son eşleşen karakter ile sıradaki karakter aynı ise '*' yap.
