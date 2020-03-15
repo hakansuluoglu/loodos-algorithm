@@ -1,0 +1,2 @@
+# loodos-algorithm
+![](app.gif)
